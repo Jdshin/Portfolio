@@ -8,7 +8,6 @@ import Projects from './pages/Projects';
 import Games from './pages/Games';
 import Academia from './pages/Academia';
 import Contact from './pages/Contact';
-import { BrowserRouter as Router } from 'react-router-dom';
 import NavComp from './components/NavComp';
 
 function App() {
@@ -18,17 +17,15 @@ function App() {
         <h1>Hello</h1
         >
       </header> */}
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/games" element={<Games />} />
-          <Route path="/academia" element={<Academia />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
-     
+      <NavComp />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/games" element={<Games />} />
+        <Route path="/academia" element={<Academia />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
