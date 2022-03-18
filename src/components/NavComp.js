@@ -6,7 +6,7 @@ import { NavLink, NavItem } from "react-bootstrap";
 function NavComp(props){
 
     return (
-        <Navbar>
+        <Navbar bg="dark" variant="dark">
             <Container>
                 <Nav>
                     <Nav.Link as={Link} to='/'>Home</Nav.Link>
