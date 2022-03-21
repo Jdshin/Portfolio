@@ -65,3 +65,21 @@ button {
 .logo-container img {
   margin: 10px;
 }
+
+#solitaire_img {
+  height: 80px;
+  width: 140px;
+}
+
+.game-col {
+  border: 1px solid #CCCCCC;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-col a {
+  text-decoration: none;
+  font-weight: 700;
+}
