@@ -39,5 +39,20 @@
 
 .resume {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.row {
+  margin: auto;
+}
+
+p {
+  margin: auto;
+}
+
+button {
+  margin-top: 10px;
 }
