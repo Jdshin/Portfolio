@@ -47,6 +47,7 @@
 
 .row {
   margin: auto;
+  margin-top: 20px;
 }
 
 p {
@@ -55,4 +56,12 @@ p {
 
 button {
   margin-top: 10px;
+}
+
+#linkedInLogo {
+  filter: brightness(0%);
+}
+
+.logo-container img {
+  margin: 10px;
 }
