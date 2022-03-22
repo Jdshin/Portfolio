@@ -1,7 +1,8 @@
 import { Button, Container, Row, Col } from "react-bootstrap";
-import download from '../assets/images/download.png';
+import chem_resume from "../assets/resume/James_Shin_Chem_Resume.pdf";
+import cs_resume from "../assets/resume/James_Shin_CompSci_Resume.pdf";
 
-function About(props){
+function Resume(props){
     return (
         <Container className="body-container">
             <Row>
@@ -19,9 +20,9 @@ function About(props){
                             <div>
                                 <p>For Web Development Positions</p>
                             </div>
-                            <a href="/resume/James_Shin_CompSci_Resume" download>
+                            <a href={cs_resume}>
                                 <Button variant='outline-secondary'>
-                                    <span>Download Resume</span>
+                                    <span>Resume</span>
                                 </Button>
                             </a>
                         </div>
@@ -32,9 +33,9 @@ function About(props){
                                 <div>
                                     <p>For Polymer Engineering Positions</p>
                                 </div>
-                                <a href="/resume/James_Shin_Chem_Resume" download>
+                                <a href={chem_resume}>
                                     <Button variant='outline-secondary'>
-                                        <span>Download Resume</span>
+                                        <span>Resume</span>
                                     </Button>
                                 </a>
                             </div>
@@ -46,4 +47,4 @@ function About(props){
     );
 };
 
-export default About;
+export default Resume;

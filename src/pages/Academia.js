@@ -1,4 +1,5 @@
 import {Container, Col, Row, Button, Card} from 'react-bootstrap';
+import nli_paper from "../assets/papers/jds_nli_paper.pdf";
 
 
 function Academia(props){
@@ -7,7 +8,7 @@ function Academia(props){
             <Row>
                 <h1>Academic Projects</h1>
             </Row>
-            <hr class="solid" />
+            <hr className="solid" />
             <Row>
                 {/* <a href="public\papers\jds_nli_paper.pdf" download>
                     <Button variant="outline-secondary">
@@ -23,9 +24,11 @@ function Academia(props){
                         with greater than 90% accuracy. The classifer was used to automatically prune the training set and created a model with increased ability to identify incorrect examples. </p>
                 </div>
                 <div>
-                    <Button variant="outline-secondary">
-                        Download Paper
-                    </Button>
+                    <a href={nli_paper}>
+                        <Button variant="outline-secondary">
+                            Read Paper
+                        </Button>
+                    </a>
                 </div>
             </Row>
         </Container>
