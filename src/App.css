@@ -71,7 +71,7 @@ button {
 
 .game-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 5%;
 }
 
@@ -82,4 +82,8 @@ button {
 
 .body-container {
   margin-top: 5%;
+}
+
+#solitaire_img{
+  padding: 13px;
 }
