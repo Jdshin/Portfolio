@@ -4,7 +4,7 @@ import linkedinLogo from '../assets/images/In-Blue-34.png';
 
 function Contact(props){
     return (
-        <Container>
+        <Container className="body-container">
             <Row>
                 <Col>
                     <p>If you have an opportunity that aligns with my skill set, 
