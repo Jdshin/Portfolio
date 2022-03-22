@@ -46,7 +46,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
 }
 
 .row {
@@ -70,20 +69,17 @@ button {
   margin: 10px;
 }
 
-#solitaire_img {
-  height: 80px;
-  width: 140px;
+.game-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 
-.game-col {
-  border: 1px solid #CCCCCC;
+.resume-row {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
 }
 
-.game-col a {
-  text-decoration: none;
-  font-weight: 700;
+.body-container {
+  margin-top: 5%;
 }
