@@ -13,9 +13,9 @@ function About(props){
                 <Col>
                     <div className="resume">
                         <div>
-                            <p>For Polymer Engineering Positions</p>
+                            <p>For Web Development Positions</p>
                         </div>
-                        <a href="/resume/James_Shin_Chem_Resume" download>
+                        <a href="/resume/James_Shin_CompSci_Resume" download>
                             <Button variant='outline-secondary'>
                                 <span>Download Resume</span>
                             </Button>
@@ -27,9 +27,9 @@ function About(props){
                 <Col>
                     <div className="resume">
                         <div>
-                            <p>For Web Development Positions</p>
+                            <p>For Polymer Engineering Positions</p>
                         </div>
-                        <a href="/resume/James_Shin_CompSci_Resume" download>
+                        <a href="/resume/James_Shin_Chem_Resume" download>
                             <Button variant='outline-secondary'>
                                 <span>Download Resume</span>
                             </Button>
