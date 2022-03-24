@@ -117,8 +117,8 @@ button {
 }
 
 .contact-form {
-  min-width: 400px;
-  max-width: 500px;
+  min-width: 300px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,4 +127,14 @@ button {
 
 textarea {
   resize: none;
+  width: 100%;
 }
+
+input {
+  width: 100%;
+}
+
+form > * {
+  margin: 1px;
+}
+

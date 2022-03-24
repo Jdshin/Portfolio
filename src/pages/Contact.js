@@ -1,13 +1,16 @@
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 import githubLogo from '../assets/images/GitHub-Mark-32px.png';
 import linkedinLogo from '../assets/images/In-Blue-34.png';
-import {useState} from 'react';
+import React from 'react';
+import {useForm, ValidationError} from '@formspree/react';
+
 
 function Contact(props){
 
-    const [contactForm, setContactForm] = useState(0);
-
-
+    const [state, handleSubmit] = useForm("mbjwajdj");
+    if (state.succeeded){
+        return <div className="body-container">Thank you for your inquiry!</div>
+    }
 
     return (
         <Container className="body-container">
@@ -18,12 +21,45 @@ function Contact(props){
                 </Col>
             </Row>
             <Row className="contact-form">
-                <Form>
-                    <Form.Control type="text" placeholder="Name"/>
-                    <Form.Control type="email" placeholder="Email" />
-                    <Form.Control as="textarea" rows={3} placeholder="Message" />
-                    <Button variant="outline-secondary">Submit</Button>
-                </Form>
+                <form className="contact-form" onSubmit={handleSubmit}>
+                    <input
+                        id="name"
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        required
+                    />
+                    <ValidationError
+                        prefix="Name"
+                        field="name"
+                        errors={state.errors}
+                    />
+                    <input
+                        id="email"
+                        type="email" 
+                        name="email"
+                        placeholder='Email'
+                        required
+                    />
+                    <ValidationError 
+                        prefix="Email" 
+                        field="email"
+                        errors={state.errors}
+                    />
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Message"
+                    />
+                    <ValidationError 
+                        prefix="Message" 
+                        field="message"
+                        errors={state.errors}
+                    />
+                    <Button variant="outline-secondary" type="submit" disabled={state.submitting}>
+                        Submit
+                    </Button>
+                </form>
             </Row>
             <Row>
                 <Col className="logo-container">
