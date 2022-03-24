@@ -3,7 +3,7 @@ import './App.css';
 
 import {Route, Routes} from 'react-router';
 import Home from './pages/Home';
-import About from './pages/About';
+import Resume from './pages/About';
 import Projects from './pages/Projects';
 import Games from './pages/Games';
 import Academia from './pages/Academia';
@@ -20,7 +20,7 @@ function App() {
       <NavComp />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<Resume />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/games" element={<Games />} />
         <Route path="/academia" element={<Academia />} />
