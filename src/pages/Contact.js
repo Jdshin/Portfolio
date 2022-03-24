@@ -1,19 +1,29 @@
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 import githubLogo from '../assets/images/GitHub-Mark-32px.png';
 import linkedinLogo from '../assets/images/In-Blue-34.png';
+import {useState} from 'react';
 
 function Contact(props){
+
+    const [contactForm, setContactForm] = useState(0);
+
+
+
     return (
         <Container className="body-container">
             <Row>
                 <Col>
                     <p>If you have an opportunity that aligns with my skill set, 
-                        feel free to get in touch</p>
+                        feel free to get in touch.</p>
                 </Col>
             </Row>
-            <Row>
-                <p>Email: jddshin@gmail.com</p>
-                <p>Phone: 1-399-364-4034</p>
+            <Row className="contact-form">
+                <Form>
+                    <Form.Control type="text" placeholder="Name"/>
+                    <Form.Control type="email" placeholder="Email" />
+                    <Form.Control as="textarea" rows={3} placeholder="Message" />
+                    <Button variant="outline-secondary">Submit</Button>
+                </Form>
             </Row>
             <Row>
                 <Col className="logo-container">

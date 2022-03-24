@@ -115,3 +115,16 @@ button {
   border-color: #ffffff;
   border-width: 3px;
 }
+
+.contact-form {
+  min-width: 400px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  resize: none;
+}
