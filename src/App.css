@@ -97,3 +97,21 @@ button {
   text-decoration: underline;
   font-weight: bold;
 }
+
+.opener {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.opener div {
+  margin: 20px;
+}
+
+.headshot {
+  border-radius: 20%;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+}

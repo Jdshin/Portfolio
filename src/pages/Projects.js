@@ -1,6 +1,10 @@
+import {Container} from 'react-bootstrap';
+
 function Projects(props){
     return (
-        <h1>Projects page</h1>
+        <Container className="body-container">
+            <h1>Projects page</h1>
+        </Container>
     );
 };
 
