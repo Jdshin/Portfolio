@@ -1,7 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
-import { NavLink, NavItem } from "react-bootstrap";
 
 function NavComp(props){
 
