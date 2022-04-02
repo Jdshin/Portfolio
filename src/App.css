@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #dee2e6;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +41,100 @@
     transform: rotate(360deg);
   }
 }
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  margin: auto;
+  margin-top: 20px;
+}
+
+p {
+  margin: auto;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#linkedInLogo {
+  filter: brightness(0%);
+}
+
+.logo-container img {
+  margin: 10px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.resume-row {
+  display: flex;
+  justify-content: center;
+}
+
+.body-container {
+  margin-top: 5%;
+}
+
+#solitaire_img{
+  padding: 13px;
+}
+
+.abstract {
+  width: 75%;
+}
+
+.bold-underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.opener {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.opener div {
+  margin: 20px;
+}
+
+.headshot {
+  border-radius: 20%;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+}
+
+.contact-form {
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+form > * {
+  margin: 1px;
+}
+
