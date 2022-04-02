@@ -1,4 +1,4 @@
-import {Container, Col, Row, Button, Card} from 'react-bootstrap';
+import {Container, Row, Button} from 'react-bootstrap';
 import nli_paper from "../assets/papers/jds_nli_paper.pdf";
 
 

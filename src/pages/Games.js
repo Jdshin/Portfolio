@@ -1,4 +1,4 @@
-import {Container, Row, Col, Card, Button} from 'react-bootstrap';
+import {Container, Card, Button} from 'react-bootstrap';
 import solitaire_img from '../assets/images/solitaire2.png';
 import sudoku_img from '../assets/images/sudoku.jpg';
 
