@@ -3,7 +3,7 @@ import './App.css';
 import {Route, Routes} from 'react-router';
 import Home from './pages/Home';
 import Resume from './pages/About';
-import Projects from './pages/Projects';
+// import Projects from './pages/Projects';
 import Games from './pages/Games';
 import Academia from './pages/Academia';
 import Contact from './pages/Contact';
