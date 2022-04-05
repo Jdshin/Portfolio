@@ -1,3 +1,6 @@
+@import url("styles/contact.css");
+
+
 .App {
   text-align: center;
 }
@@ -116,15 +119,6 @@ button {
   border-width: 3px;
 }
 
-.contact-form {
-  min-width: 300px;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 textarea {
   resize: none;
   width: 100%;
@@ -137,4 +131,3 @@ input {
 form > * {
   margin: 1px;
 }
-
