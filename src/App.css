@@ -1,3 +1,6 @@
+@import url("styles/contact.css");
+
+
 .App {
   text-align: center;
 }
@@ -5,6 +8,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #dee2e6;
+  font-size: 1vw;
 }
 
 .App-logo {
@@ -25,7 +29,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: white;
 }
 
@@ -54,13 +58,9 @@ body {
   margin-top: 20px;
 }
 
-p {
-  margin: auto;
-}
-
-button {
+/* button {
   margin-top: 10px;
-}
+} */
 
 #linkedInLogo {
   filter: brightness(0%);
@@ -114,15 +114,7 @@ button {
   border-style: solid;
   border-color: #ffffff;
   border-width: 3px;
-}
-
-.contact-form {
-  min-width: 300px;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 12vw;
 }
 
 textarea {
@@ -138,3 +130,44 @@ form > * {
   margin: 1px;
 }
 
+nav {
+  font-size: 1.2vw;
+} 
+
+h1 {
+  font-size: 3vw;
+}
+
+h4 {
+  font-size: 2vw;
+}
+
+h5 {
+  font-size: 1.5vw;
+}
+
+.nav-link {
+  margin-right: 0.5vw;
+}
+
+.card {
+  width: 5vw;
+  max-width: 20vw;
+}
+
+p {
+  font-size: 1.1vw;
+  width:100%;
+}
+
+.btn {
+  font-size: 1.2vw;
+}
+
+.card-title {
+  font-size: 1.5vw;
+}
+
+.academia {
+  text-align: left;
+}
