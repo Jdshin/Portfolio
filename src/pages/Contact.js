@@ -57,7 +57,7 @@ function Contact(props){
                         errors={state.errors}
                     />
                     <Button variant="outline-secondary" type="submit" disabled={state.submitting}>
-                        Submit
+                        <p>Submit</p>
                     </Button>
                 </form>
             </Row>

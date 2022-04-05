@@ -22,7 +22,7 @@ function Resume(props){
                             </div>
                             <a href={cs_resume}>
                                 <Button variant='outline-secondary'>
-                                    <span>Resume</span>
+                                    Resume
                                 </Button>
                             </a>
                         </div>
@@ -35,7 +35,7 @@ function Resume(props){
                                 </div>
                                 <a href={chem_resume}>
                                     <Button variant='outline-secondary'>
-                                        <span>Resume</span>
+                                        Resume
                                     </Button>
                                 </a>
                             </div>
